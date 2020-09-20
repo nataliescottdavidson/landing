@@ -29,12 +29,8 @@ module.exports = {
       options: {
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Github`,
+            url: `https://github.com/nataliescottdavidson`,
           },
         ],
       },
