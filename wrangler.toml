@@ -1,6 +1,11 @@
 name = "nat-landing"
 type = "webpack"
 account_id = "04e8ec7979d1d07c39925ab7332a116e"
+workers_dev = false
+route = "http://*natdavidson.com/*"
+zone_id = "781c08837c4a2a074def2d8589b01148"
+
+[env.dev]
 workers_dev = true
 route = ""
 zone_id = ""
