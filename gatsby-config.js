@@ -21,6 +21,12 @@ module.exports = {
         // Twitter Handle
         author: `@lekoarts_de`,
         // Links displayed in the header on the right side
+        menuLinks: [
+          {
+            name: `Resume`,
+            link: `/resume`,
+          },
+        ],
   },
   plugins: [
     {
@@ -29,7 +35,12 @@ module.exports = {
       options: {
 
         navigation: [
-
+          {
+            title: `Resume`,
+            name: `Resume`,
+            slug: `/resume`,
+            link: `/resume`,
+          },
         ],
         externalLinks: [
           {
@@ -80,6 +91,14 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/images`,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   
   ].filter(Boolean),
 }
