@@ -6,8 +6,8 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Nat Davidson`,
-    siteTitleAlt: `Nat Davidson`,
+    siteTitle: `Natalie Davidson`,
+    siteTitleAlt: `Natalie Davidson`,
     siteDescription: `Nat's landing page`,
         siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
         // Will be used to generate absolute URLs for og:image etc.
@@ -36,6 +36,14 @@ module.exports = {
             name: `Github`,
             url: `https://github.com/nataliescottdavidson`,
           },
+          {
+            name: `Instagram`,
+            url: `https://www.instagram.com/cloudy_and_windy/`,
+          },
+          {
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/nataliescottdavidson/`
+          }
         ],
       },
     },
