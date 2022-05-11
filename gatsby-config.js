@@ -9,9 +9,9 @@ module.exports = {
     siteTitle: `Natalie Davidson`,
     siteTitleAlt: `Natalie Davidson`,
     siteDescription: `Nat's landing page`,
-        siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+        siteHeadline: `Natalie Davidson`,
         // Will be used to generate absolute URLs for og:image etc.
-        siteUrl: `https://minimal-blog.lekoarts.de`,
+        siteUrl: `https://natdavidson.com`,
         // Used for SEO
         siteDescription: `Nat's landing page.`,
         // Will be set on the <html /> tag
@@ -19,8 +19,6 @@ module.exports = {
         // Used for og:image and must be placed inside the `static` folder
         siteImage: `/banner.jpg`,
         // Twitter Handle
-        author: `@lekoarts_de`,
-        // Links displayed in the header on the right side
   },
   plugins: [
     {
